@@ -3,7 +3,7 @@ var blog = [
         "id": 1,
         "naslov": "Viktorijini vodopadi",
         "description": "Viktorijini vodopadi ili na jezicima domordaca 'Dim koji grmi' nalaze se na reci Zambezi, na granici između Zimbabvea i Zambije. Vodopad je otkrio škotski lekar i pustolov Dejvid Livingston 1855. godine. Ime je dao u čast britanske kraljice Viktorije. Najveličanstveniji i najveći slapovi (širina 1708 m i visina 108 m) se stropoštavaju sa bazaltnog platoa visine preko 100 m stvarajući huk i vodenu prašinu koja je vidljiva na udaljenosti više desetina kilometara. Viktorijine vodopade čini nekoliko slapova - Đavolov vodopad, Glavni vodopad, Dugini vodopadi i Istočna katarakta.",
-        "link": "http://127.0.0.1:5500/Projekat-Milana_Dokic_napredni/stranice/postovi/post.html"
+        "link": "postovi/post.html"
     },
     {
         "id": 2,
