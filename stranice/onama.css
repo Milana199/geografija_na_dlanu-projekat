@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+
+.navbar-nav {
+    margin-right: 70px;
+}
+.navbar-nav a {
+    font-size: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.8s;
+    letter-spacing: 4px;
+    /* color:  #050801; */
+}
+
+.navbar-nav a:hover {
+    /* background:#03e9f4 ; */
+    color: #050801;
+    box-shadow: 0 0 5px #03f45f,
+                0 0 25px #03f45f,
+                0 0 50px  #03f45f,
+                0 0 200px  #03f45f;
+}
+
+.navbar-light .navbar-brand {
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: -20px;
+    padding-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(20, 22, 22) !important;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#logo {
+    font-size: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.8s;
+    letter-spacing: 4px;
+}
+
+main {
+    background-image: url(../slike/pozadinska.jpg);
+    height: 100vh;
+    /* margin-top: 20px; */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#onama {
+    background-color:rgba(255, 255, 255, 0.4);
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(5, 140, 129);
+    font-size: 45px;
+}
+#opis {
+    padding: 0px 300px;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify; 
+}
+#link p {
+    display: inline-block;
+}
+
+@media only screen and (max-width:990px) {
+    .navbar-nav.ml-auto {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width:975px) {
+    #opis {
+        padding: 0 200px;
+    }
+}
+
+@media only screen and (max-width:915px) {
+    #opis {
+        padding: 0 150px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    #opis {
+        padding: 0 120px;
+    }
+}
+
+@media only screen and (max-width:755px) {
+    #opis {
+        padding: 0 90px;
+    }
+}
+
+@media only screen and (max-width:695px) {
+    #opis {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width:615px) {
+    #opis {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width:555px) {
+    #opis {
+        padding: 0 20px;
+    }
+    #opis p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:455px) {
+    #opis {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    #opis {
+        font-size: 14px;
+    }
+}

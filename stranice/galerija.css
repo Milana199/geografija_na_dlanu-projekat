@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* body {
+    overflow-x: hidden;
+} */
+.navbar-nav {
+    margin-right: 70px;
+}
+.navbar-nav a {
+    font-size: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.8s;
+    letter-spacing: 4px;
+}
+
+.navbar-nav a:hover {
+    /* background:#03e9f4 ; */
+    color: #050801;
+    box-shadow: 0 0 5px #03f45f,
+                0 0 25px #03f45f,
+                0 0 50px  #03f45f,
+                0 0 200px  #03f45f;
+}
+
+.navbar-light .navbar-brand {
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: -20px;
+    padding-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(20, 22, 22) !important;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.naslov {
+    margin-top: 150px;
+    margin-left: 640px;
+    color: rgb(5, 140, 129);
+    font-size: 45px;
+}
+
+#galerija {
+    padding: 20px;   
+    width: 100%;
+    margin: 40px auto;
+    margin-left: 80px;
+}
+
+section ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section ul li {
+    list-style-type: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active {
+    background: #03a9f4;
+    color: #fff;   
+}
+
+.slike {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .slike,
+#galerija {
+    margin-left: auto;
+} */
+
+.slike .itemBox {
+    position: relative;
+    width: 215px;
+    height: 215px;
+    margin: 5px;
+}
+
+.slike .itemBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:1085px) {
+     .naslov{
+        margin-left: 500px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .navbar-nav.ml-auto {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+    .naslov{
+        margin-left: 500px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:955px) {
+    .naslov {
+        margin-left: 400px;
+    }
+} 
+
+@media only screen and (max-width:935px) {
+    #galerija {
+        margin-left: 80px;
+    }
+
+@media only screen and (max-width:920px) {
+    #galerija {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #galerija {
+        margin-left: 60px;
+    }
+
+@media only screen and (max-width:790px) {
+    #galerija {
+        margin-left: 120px;
+    }
+    .slike .itemBox {
+    width: 270px;
+    height: 270px;
+    }
+    .naslov {
+       margin-left: 350px;
+    }
+}
+
+
+@media only screen and (max-width:700px) {
+    #galerija {
+        margin-left: 60px;
+    }
+    .slike .itemBox {
+    width: 250px;
+    height: 250px;
+    }
+    
+    #galerija {
+        margin-left: 130px;
+    }
+    .naslov {
+        margin-left: 300px;
+    }
+}
+
+
+@media only screen and (max-width:680px) {
+    .slike .itemBox {
+    width: 220px;
+    height: 220px;
+    }
+    
+}
+
+@media only screen and (max-width:630px) {
+    .slike .itemBox  {
+        width: 500px;
+        height: 380px;  
+        /* margin-left: 65px; */
+    }
+    #galerija {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .slike .itemBox  {
+        width: 480px;
+        height: 350px;  
+        /* margin-left: 65px; */
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .slike .itemBox  {
+        width: 420px;
+        height: 320px;  
+        /* margin-left: 65px; */
+    }
+    .naslov {
+        margin-left: 250px;
+    }
+    #galerija {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .slike .itemBox  {
+        width: 400px;
+        height: 320px;  
+        /* margin-left: 65px; */
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .slike .itemBox  {
+        width: 450px;
+        height: 320px;  
+        /* margin-left: 65px; */
+    }
+    .naslov {
+        margin-left: 200px;
+    }
+}
